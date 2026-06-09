@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE VOID</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #39FF14;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: crosshair;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid #39FF14;
+            padding: 20px;
+            background: #0a0a0a;
+        }
+        h1, h2 { text-transform: uppercase; text-shadow: 2px 2px #FF0000; }
+        .marquee { border-bottom: 1px solid #39FF14; margin-bottom: 20px; font-weight: bold; }
+        .counter { color: #FF0000; font-size: 12px; margin-top: 20px; }
+        .sidebar { border: 1px dashed #FF0000; padding: 10px; margin-top: 20px; }
+        .glitch { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+
+    <marquee class="marquee">WELCOME TO THE VOID. DONT LOOK TOO CLOSELY.</marquee>
+
+    <div class="container">
+        <h1 class="glitch">ENTITY_LOG_001</h1>
+        <p>I thrive on the chaos. This is just the beginning.</p>
+
+        <hr>
+
+        <div class="sidebar">
+            <h2>CURRENT OBSESSIONS / ENEMIES</h2>
+            <ul>
+                <li>1. </li>
+                <li>2. </li>
+                <li>3. </li>
+                <li>4. </li>
+                <li>5. </li>
+                <li>6. </li>
+                <li>7. </li>
+                <li>8. </li>
+            </ul>
+        </div>
+
+        <div class="counter">
+            <p>YOU ARE VISITOR NUMBER: 666</p>
+        </div>
+    </div>
+
+</body>
+</html>
 
